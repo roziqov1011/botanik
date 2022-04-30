@@ -21,17 +21,17 @@ export default function Footer() {
             <h3 className="footer__socials-title">Follow us: </h3>
             <ul className="socials">
               <li className="socials__item">
-                <a className="socials__link" href="#">
+                <a className="socials__link" href="/">
                   <i className="socials__img bx bxl-telegram"></i>
                 </a>
               </li>
               <li className="socials__item">
-                <a className="socials__link" href="#">
+                <a className="socials__link" href="/">
                   <i className="socials__img bx bxl-instagram"></i>
                 </a>
               </li>
               <li className="socials__item">
-                <a className="socials__link" href="#">
+                <a className="socials__link" href="/">
                   <i className="socials__img bx bxl-facebook"></i>
                 </a>
               </li>
