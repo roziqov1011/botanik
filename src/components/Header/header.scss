@@ -1,0 +1,88 @@
+@import "../../sass/variables.scss";
+@import "../../sass/mixins.scss";
+
+.header{
+  margin-bottom: 15px;
+  padding: 30px 0;
+}
+
+.header.site-header{
+  margin-bottom: 0;
+  padding: 15px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-item{
+  width: 50px;
+  height: 50px;
+}
+
+.nav__img{
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav__logo{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.nav__list{
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item{
+  margin-right: 50px;
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.nav__link{
+  color: $color-text;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.site-header{
+  background-color: $dark-color;
+}
+
+.site-header .nav__link{
+  color: #fff;
+}
+
+@include breakpoint-down (560px){
+  .nav__item{
+    margin-right: 25px;
+  }
+
+  .nav__link{
+    font-size: 13px;
+  }
+
+  .nav__img{
+    width: 55px;
+    height: 30px;
+  }
+
+  .logo-item, .nav__logo{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@include breakpoint-down (420px){
+  .nav__item{
+    margin-right: 18px;
+  }
+}
