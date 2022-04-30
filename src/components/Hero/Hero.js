@@ -49,17 +49,17 @@ export default function Hero() {
           <ul className="socials">
             <li className="socials__item">
               <a className="socials__link" href="#">
-                <i class="socials__img bx bxl-telegram"></i>
+                <i className="socials__img bx bxl-telegram"></i>
               </a>
             </li>
             <li className="socials__item">
               <a className="socials__link" href="#">
-                <i class="socials__img bx bxl-instagram"></i>
+                <i className="socials__img bx bxl-instagram"></i>
               </a>
             </li>
             <li className="socials__item">
               <a className="socials__link" href="#">
-                <i class="socials__img bx bxl-facebook"></i>
+                <i className="socials__img bx bxl-facebook"></i>
               </a>
             </li>
           </ul>
